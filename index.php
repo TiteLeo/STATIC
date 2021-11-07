@@ -1,5 +1,8 @@
+
 <?php
 
-require 'Speedometer.php';
+require_once 'Speedometer.php';
 
-echo Speedometer::convertKmToMiles(10);
+
+echo Speedometer::convertKmToMiles(10) . PHP_EOL;
+echo Speedometer::convertMilesToKm(10);
