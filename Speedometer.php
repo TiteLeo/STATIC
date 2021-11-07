@@ -4,7 +4,7 @@ class Speedometer
 {
     const CONVERT = 1.61;
 
-    public static function  convertKmToMiles(float $km): float
+    public static function convertKmToMiles(float $km): float
     {
         return round($km / self::CONVERT, 2);
     }
